@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="./favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>App</title>
+		
+		<link rel="modulepreload" href="./_app/immutable/entry/start.EhtymMCe.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.tdcquOLB.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.r8SRu-FV.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/parse.RrI1B0B4.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.zQrLMo-b.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.CrO02VI1.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div>
+			<script>
+				{
+					__sveltekit_n9ry0s = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: null
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("./_app/immutable/entry/start.EhtymMCe.js"),
+						import("./_app/immutable/entry/app.zQrLMo-b.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>
